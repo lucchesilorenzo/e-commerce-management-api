@@ -1,0 +1,21 @@
+{
+  "name": "e-commerce-management-api",
+  "version": "1.0.0",
+  "main": "app.mjs",
+  "scripts": {
+    "start": "node --env-file=.env app.mjs",
+    "dev": "node --watch --env-file=.env app.mjs"
+  },
+  "keywords": [],
+  "author": "Lorenzo Lucchesi",
+  "license": "ISC",
+  "description": "E-Commerce Management API",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-validator": "^7.1.0",
+    "mongoose": "^8.5.1"
+  },
+  "type:": "module"
+}
